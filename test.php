@@ -15,10 +15,6 @@ $result = [];
 
 for ($i = 0; $i < $length - 1; $i++) {
     for ($j = 1; $j < $length ; $j++) {
-        if ($i === $j) {
-            continue;
-        }
-
         $k1 = $a[$i];
         $k2 = $a[$j];
 
